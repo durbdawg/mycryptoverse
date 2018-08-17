@@ -1,6 +1,10 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
+.btn {
+	border-radius: 0;
+}
+
 .navbar {
 	color: #36A5F5;
 	font-family: "Bangers", cursive, sans-serif;
@@ -13,4 +17,35 @@
 	color: #36A5F5;
 	font-family: "Bangers", cursive, sans-serif;
 	font-size: 30px;
+}
+
+.hero {
+	background: image_url('hero.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 370px;
+	box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.frosty {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.frosty h1 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-family: 100;
+	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 200;
+	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+h1, h2, h3, h4, h4, h6, .navbar {
+	margin: 0;
 }
